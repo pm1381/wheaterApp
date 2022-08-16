@@ -1,0 +1,48 @@
+.serachUser{
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.searchInput{
+    padding: 0.3em 0.6em;
+    max-width: 85%;
+    flex: 0 0 85%;
+    border: none;
+    border-left: 1px solid #ccc;
+    outline: none;
+}
+
+.searchButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em 0.6em;
+    max-width: 15%;
+    flex: 0 0 15%;
+    background-color: #ddd;
+}
+
+.showUser {
+    /* width: 100%; */
+    background-color: #ddd;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    margin-bottom: 1em;
+}
+
+.userVerify{
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(108, 240, 104);
+    padding: 0 0.6em;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+

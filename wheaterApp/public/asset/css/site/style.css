@@ -1,0 +1,282 @@
+@font-face{
+    font-family:Vazir;
+    src:url('./../../../asset/fonts/Vazir.woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazirmatn;
+}
+
+h1 {
+    font-size: 50px;
+    color: #222222;
+    line-height: 60px;
+}
+
+.padding-base {
+    padding: 20px ;
+}
+
+h2 {
+    font-size: 45px;
+    color: #222222;
+    line-height: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222222;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #222222;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: #222222;
+}
+
+body{
+    width: 100%;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#hero{
+    background-color: #73b4c9;
+    height: 70vh;
+    position: relative;
+}
+
+#header svg{
+    color: #fff;
+    fill:  #fff;
+}
+
+#header h2{
+    font-size: 22px;
+    color: #fff;
+}
+
+.wheaterForCast{
+    padding: 30px 0;
+}
+
+.weekday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0 7px;
+}
+
+.pText{
+    margin-bottom: 5px !important;
+}
+
+.wheaterData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.wheaterStatus{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.wheaterIcon{
+    width: 30px;
+    height:30px
+}
+
+#searchSection{
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: none;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    height: 3rem;
+    transition: all 2s;
+    margin-top: 7px;
+}
+
+#searchSection.fade{
+    display: flex !important;
+    opacity: 1;
+}
+
+#searchSection input{
+    padding: 0.7em 0.3em;
+    max-width: 80%;
+    border-right: 1px solid #000000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.locationData svg{
+    cursor: pointer;
+}
+
+.searchIconDiv{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.searchIconDiv svg{
+    color: #73b4c9;
+    fill:  #73b4c9;
+}
+
+.localTime, .loc{
+    color: #fff;
+    margin-bottom: 5px !important;
+}
+
+.loc {
+    font-size: 15px;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.changeButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 20px #465b52;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -3%;
+    right: 20px;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.selectedCity {
+    color: #73b4c9 !important;
+    font-weight: 700 !important;
+}
+
+#searchIcon, .searchIconDiv{
+    cursor: pointer;
+}
+
+.h2Class{
+    margin: 0;
+}
+
+.dropdown{
+    margin-top: 7px;
+}
+
+.dayMax, .dayMin, .mainData{
+    color: #fff;
+    fill: #fff;
+}
+
+.currentDegree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.wheterCurrentData{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.currentWheterImg {
+    width: 75px;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.supportData{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.sData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sData svg{
+    fill: #fff;
+    color: #fff;
+}
+
+.locationData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7px;
+}
